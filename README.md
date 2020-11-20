@@ -4,4 +4,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-![dashboard](hhttps://github.com/divinoborges/SpeedCow/blob/main/src/assets/print1.png)
+![dashboard](https://github.com/divinoborges/SpeedCow/blob/main/src/assets/print1.png)
