@@ -1,0 +1,17 @@
+<div style="background-color: #f8f8f8">
+  <div class="card" *ngFor="let filial of filiais | async" style="text-align: center" [routerLink]="['filial', filial._id]">
+    <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center">
+      <h3>{{filial.nome}}</h3>
+      <h5>{{filial.cidade}}, GO</h5>
+    </div>
+    <h6 style="margin-top: 32px;margin-bottom: 32px">{{filial.rebanho}} animais</h6>
+
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: center">
+      <p>0</p>
+      <div class="progress" style="width: 100%">
+        <div class="progress-bar bg-success" role="progressbar" [style.width.%]="filial.rebanho | porcentagem">{{filial.rebanho | porcentagem}}%</div>
+      </div>
+      <p>200</p>
+    </div>
+  </div>
+</div>

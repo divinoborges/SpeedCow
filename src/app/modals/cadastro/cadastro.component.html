@@ -1,0 +1,23 @@
+<div class="modal-header">
+    <h4 class="modal-title">Cadastro</h4>
+    <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form [formGroup]="form">
+        <div class="form-group">
+            <label for="dataEntrada">Data de Entrada</label>
+            <input type="date" class="form-control" id="dataEntrada" formControlName="dataEntrada">
+          </div>
+    
+          <div class="form-group">
+            <label for="peso" >Peso</label>
+            <input type="number" class="form-control" id="peso" formControlName="peso">
+            <small id="pesoHelp" class="form-text text-muted">Somente números</small>
+          </div>
+
+          <button type="button" class="btn btn-success" type="button" (click)="cadastrar()">Cadastrar</button>
+    </form>
+
+  </div>

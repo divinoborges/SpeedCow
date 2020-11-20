@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body, html{
+  background-color: #f8f8f8;
+}
+p{
+  margin-bottom: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
