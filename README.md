@@ -1,5 +1,5 @@
 # SpeedCow
-
+[![divinoborges](https://circleci.com/gh/divinoborges/SpeedCow.svg?style=svg)](https://app.circleci.com/pipelines/github/divinoborges/SpeedCow/)
 ## Dashboard
 
 ![dashboard](https://github.com/divinoborges/SpeedCow/blob/main/src/assets/print1.png)
